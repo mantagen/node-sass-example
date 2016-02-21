@@ -9,9 +9,14 @@ http://sass-lang.com/guide
 
 ## Dependencies
 
+[node and npm](https://nodejs.org/)
+
 [nodemon](https://github.com/remy/nodemon)
+
 `npm install -g nodemon`
+
 [node-sass](https://github.com/sass/node-sass)
+
 `npm install node-sass`
 
 ## The scripts
