@@ -1,0 +1,26 @@
+{
+  "name": "sass-example",
+  "version": "0.0.1",
+  "description": "First attempt using sass",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "devstart": "nodemon -e css server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mantagen/node-sass-example"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0",
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.0"
+  }
+}
