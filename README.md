@@ -33,7 +33,14 @@ In the scripts section of package.json:
 
 ## How to use
 
+### Clone this repo
+!(https://raw.githubusercontent.com/mantagen/clone-this-repo/79f8034b565067cf00145608957fa8b35ada2656/abbie-hoffman-clone-this-repo-150px.jpg)
+`git clone https://github.com/mantagen/node-sass-example`
+
+###
+
 In one terminal:
 `npm run watch-css`
+
 In another terminal:
 `npm run devstart`
