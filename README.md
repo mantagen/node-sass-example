@@ -38,11 +38,11 @@ In the scripts section of package.json:
 
 `git clone https://github.com/mantagen/node-sass-example`
 
-Then npm install
+### Then npm install
 
 `npm install`
 
-###
+### Then run
 
 In one terminal:
 `npm run watch-css`
