@@ -1,7 +1,7 @@
 # Using node-sass with Hapi and watching with scripts
 
 An example app using the [node-sass](https://github.com/sass/node-sass) npm module to compile .scss to CSS.
-I am using Hapi to create a simple server serving a static file, but the approach below will work with other frameworks or indeed no frameworks.
+I am using [Hapi](https://github.com/hapijs/hapi) to create a simple server serving a static file, but the approach below will work with other frameworks or indeed no frameworks.
 
 ## SASS?
 
