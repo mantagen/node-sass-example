@@ -33,7 +33,9 @@ In the scripts section of package.json:
 ```
 
 `build-css`: Uses [node-sass](https://github.com/sass/node-sass) to compile .scss to css (in specified paths).
+
 `watch-css`: Uses [nodemon](https://github.com/remy/nodemon) to watch for changes to scss files and run `build-css` when changes are made.
+
 `devstart`: Starts the server, watching for changes and restarting the server when changes are made.
 
 ## How to use
